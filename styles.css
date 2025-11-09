@@ -272,7 +272,7 @@ body.modal-open {
     position: relative;
     max-width: 1000px;
     margin: 3rem auto 0;
-    border-radius: 24px;
+    border-radius: 0;
     overflow: hidden; /* ensures no white outside */
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
 }
@@ -282,16 +282,16 @@ body.modal-open {
     width: 100%;
     aspect-ratio: 16 / 9;
     cursor: pointer;
-    border-radius: inherit;
+    border-radius: 0;
     overflow: hidden; /* crop any edges */
 }
 
 .video-thumbnail {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* fill with no white bands */
+    object-fit: none; /* fill with no white bands */
     display: block;
-    border-radius: inherit;
+    border-radius: 0;
 }
 
 .feature-video {
@@ -300,7 +300,7 @@ body.modal-open {
     display: block;
     cursor: pointer;
     object-fit: cover;
-    border-radius: inherit; /* rounded video corners */
+    border-radius: 0; /* squared video corners */
 }
 
 .video-play-overlay {
