@@ -19,7 +19,7 @@ body.modal-open {
 .hero {
     position: relative;
     /* make hero exactly one viewport tall so the background fits the screen */
-    min-height: 100vh;
+    min-height: 110vh;
     /* explicit background properties for consistent behavior across viewports */
     background-image: url('Assets/hero_bg.png');
     background-position: center center;
