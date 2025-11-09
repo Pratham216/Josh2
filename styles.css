@@ -19,7 +19,7 @@ body.modal-open {
 .hero {
     position: relative;
     /* make hero exactly one viewport tall so the background fits the screen */
-    min-height: 110vh;
+    min-height: 100vh;
     /* explicit background properties for consistent behavior across viewports */
     background-image: url('Assets/hero_bg.png');
     background-position: center center;
@@ -195,7 +195,7 @@ body.modal-open {
 }
 
 .section-subtitle {
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     color: #666;
     margin-bottom: 4rem;
     max-width: 600px;
@@ -272,7 +272,7 @@ body.modal-open {
 .video-thumbnail {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: none;
     display: block;
 }
 
@@ -937,7 +937,7 @@ body.modal-open {
 
 .section-subtitle {
   color: #777;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   max-width: 600px;
   margin: 0 auto 2rem;
   line-height: 1.5;
